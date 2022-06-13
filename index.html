@@ -14,8 +14,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 
 .w3-red,.w3-hover-red:hover {
-  color: #000!important;
-  background-color:cyan!important; 
+  color: #fff!important;
+  background-color:tomato!important; 
 }
 html {
   scroll-behavior: smooth;
@@ -27,11 +27,13 @@ a:hover {
   transition: 0.3s;
 }
 #purButton {  
-  background: linear-gradient(to right, #aaffa9, #11ffbd)!important;
+  background: linear-gradient(to right, #f12711, #ec2F4B ,#FF416C)!important;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: bolder;
   transition: 0.3s;
+  color: white;
+  font-size: 1.5rem;
 }
 
 #purButton:hover {
@@ -49,6 +51,22 @@ a:hover {
 iframe {
 
   border-radius: 1.5rem;
+}
+
+#gridList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 10px;
+  color: #ec008c;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+.percentList {
+  color: #4e4376;
+}
+li:nth-child(2) {
+  text-decoration: line-through;
 }
 </style>
 </head>
@@ -117,7 +135,7 @@ iframe {
 <div id="our"  class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1 >Know more about Space Mining:</h1>
+      <h1 >Damages caused by mining Earth's resources:</h1>
       <div class="gridVideo">
         <iframe width="450" height="400" src="https://www.youtube.com/embed/UBlhWRnlikc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -128,11 +146,54 @@ iframe {
       </div>
     </div>
 
-    <div class="w3-third w3-center">
+    <!--<div class="w3-third w3-center">
       <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
+    </div>-->
   </div>
 </div>
+
+
+
+<!-- Fourth Grid -->
+<div id="abo" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+
+
+
+
+    <div  class="w3-twothird">
+      <h1 >Roadmap for the future</h1>
+      <h5 class="w3-padding-32">We've set additional goals for ourselves. We'll complete them as soon as we reach the targeted value.</h5>
+
+      <p class="w3-text-grey">
+        Achieving this roadmap will mean a lot to us as we all have worked very hard for this project and we are a bunch of highschoolers so we don't have a lot of money. So if these goals are reached, It would mean a lot to us!
+
+
+
+                    <ul id="gridList">
+          <li class="percentList">0% </li>
+          <li>We start this project</li>
+          <li class="percentList">10% </li>
+          <li>We pay back our moms</li>    
+          <li class="percentList">20% </li>    
+          <li>We buy luxury manisons</li>    
+          <li class="percentList">30% </li>
+          <li>We have fun</li>    
+          <li class="percentList">40% </li>
+          <li>We buy videogames</li>    
+        </ul>
+    </p>
+
+    </div>
+
+        
+
+  </div>
+</div>
+
+
+
+
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">What are you waiting for? Buy now:</h1>
@@ -143,12 +204,13 @@ iframe {
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-discord-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
  </div>
  <p>Created by <a href="https://github.com/CometCoder192" target="_blank">CometCoder192</a></p>
 </footer>

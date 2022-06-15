@@ -69,6 +69,16 @@ iframe {
   color: #4e4376;
   font-size: 1.5rem
 }
+.mailLink {
+	text-decoration: none;
+	color: navy;
+	font-weight: bolder;
+	transition: 0.3s;
+}
+.mailLink:hover, .madeBy:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
 /*
 li:nth-child(1) {
   text-decoration: line-through;
@@ -85,7 +95,8 @@ li:nth-child(1) {
     <a href="#pur" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Purchase</a>
     <a href="#our" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Mission</a>
     <a href="#abo" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
-    <a href="#con" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+    <a href="file:///C:/Users/pc1/Desktop/New%20Planet%20Ventures/VIP%20perks/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">VIP Perks</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -93,7 +104,8 @@ li:nth-child(1) {
     <a href="#pur" class="w3-bar-item w3-button w3-padding-large">Purchase</a>
     <a href="#our" class="w3-bar-item w3-button w3-padding-large">Our Mission</a>
     <a href="#abo" class="w3-bar-item w3-button w3-padding-large">About Us</a>
-    <a href="#con" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="file:///C:/Users/pc1/Desktop/New%20Planet%20Ventures/VIP%20perks/index.html" class="w3-bar-item w3-button w3-padding-large">VIP Perks</a>
   </div>
 </div>
 
@@ -210,7 +222,7 @@ li:nth-child(1) {
 
 
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+<div id="pur" class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">What are you waiting for? Buy now:</h1>
     <br>
     <button id="purButton">Purchase</button>
@@ -219,15 +231,14 @@ li:nth-child(1) {
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-discord w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
+   	<h6>Email - <a class="mailLink" href="mailto:newplanetventures759@gmail.com">newplanetventures759@gmail.com</a></h6>
+
     <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
     -->
  </div>
- <p>Created by <a href="https://github.com/CometCoder192" target="_blank">CometCoder192</a></p>
+ <p id="contact">Created by <a class="madeBy" href="https://github.com/CometCoder192" target="_blank">CometCoder192</a></p>
 </footer>
 
 <script>
